@@ -1,0 +1,182 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+header{
+    background-color: black;
+    padding: 10px;
+
+    text-align: center;
+    
+}
+
+
+header h1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px 0px;
+}
+
+
+menu ul{
+    text-align: center;
+}
+
+menu ul a {
+    color: white;
+}
+
+menu ul li  {
+    display: inline-block;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+menu a:hover{
+    color: rgb(35, 35, 134);
+    padding-top: 3px;
+}
+
+header h1:hover{
+    color: rgb(35, 35, 134);
+}
+
+main{
+    width: 70vw;
+    height: 2000px;
+    margin: auto;
+    box-shadow: 0px 0px 9px 0.1px black;
+    
+}
+
+
+img{
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    
+}
+
+div img{
+    display: block;
+    width: 75%;
+    height: 430px;
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+h2{
+    padding: 20px 0px 0px 0px;
+}
+
+main a h2 {
+    color: black;
+}
+
+
+
+.pesquisa{
+    padding: 50px;
+    text-align: center;
+    background-color: rgb(35, 35, 134);
+    color: white;
+    border-radius: 5px;
+    box-shadow:5px 7px 10px 2px black;
+    margin-bottom: 35px;
+    margin: 40px 25px;
+    
+    
+}
+
+#iemail {
+    border-radius: 3px;
+    width: 25vw;
+    height: 23px;
+    
+}
+
+#ok{
+    width: 60px;
+    height: 25px;
+    border: 7px;
+    border-radius: 2px;
+}
+
+#ok:hover{
+    color: white;
+    background-color: rgb(9, 9, 245);
+}
+
+h2{
+    margin: 10px;
+    text-align: center;
+}
+
+h3{
+    margin: 10px;
+}
+h4{
+    margin: 10px;
+    text-align: center;
+}
+
+p{
+    margin: 10px;
+    text-align: justify;
+    text-indent: 15px;
+}
+
+#dest{
+    display: flex;
+    margin: auto;
+    
+    
+}
+
+#dest ul{
+    margin: auto;
+}
+
+#dest ul img{
+    width: 310px;
+    height: 220px;
+    
+}
+
+#dest p{
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding:15px;
+    a
+
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+
+    text-decoration:none;
+    color:white;
+    
+}
+
