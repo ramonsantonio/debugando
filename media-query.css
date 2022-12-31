@@ -10,34 +10,47 @@
  */
 
 @media screen and (max-width:667px){
-*{
-        margin: 0px;
-        padding: 0px;
-        
+    *{  
+
+        width: auto;
+        padding: 0%;
+        margin: 0%;
+
     }
+
+   
 
     body{
-        width: 100%;
 
+        height: 0vh;
+        width: auto;
+    
     }
+  
    
     body main{
-        width:85%;
+
+        margin: auto;
+        text-align: center;
+        width: auto;
         
     }
 
     main img {
+
         width: 100%;
-        height: 185px;
+        height: 155px;
         margin: 0px;
         
     }
 
     main div img{
+
         display: block;
         margin: auto;
         width: 80%;
         height: 240px;
+        
     }
 
     h2{
@@ -49,48 +62,79 @@
     }
 
     input#iemail{
+
         width: 140px;     
-        padding: 0px;   
+        padding: 0px; 
+        
     }
 
+    div#dest ul{
 
+        margin: 0%;
+
+
+    }
+    
+    div#dest ul a p{
+
+        font-size: 13px;
+        text-align: center;
+        padding: 0%;
+
+    }
+
+    div#dest a img{
+
+        width: 160px;
+        height: 100px;
+        margin: 10px 25px 10px 10px;
+        padding: 0%;
+    }
+   
 
 }
 
 @media screen and (min-width:768px) and (max-width:992px){
-*{
+    *{
         max-width: 100%;
     }
 
     main{
+
         margin: auto;
         text-align: center;
         max-width: 100%;
+
     }
 
 
     #dest{
+
         display: flex;
-        margin: auto;
-        
+        margin: auto;        
         
     }
     
     #dest ul{
+
         margin: auto;
+
     }
     
     #dest, img{
+
         width: 500px;
         height: 90px;
         
     }
     
     #dest p{
+
         text-align: center;
         color: black;
         margin-top: 20px;
         font-size: 0.9rem;
+
     }
 
 
