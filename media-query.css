@@ -115,27 +115,33 @@
         
     }
     
-    #dest ul{
+    div#dest ul{
 
-        margin: auto;
-
-    }
-    
-    #dest, img{
-
-        width: 500px;
-        height: 90px;
+        margin: 1rem;
+        padding: 0%;
+        border: 0;
         
+
     }
-    
+     
     #dest p{
 
         text-align: center;
         color: black;
         margin-top: 20px;
         font-size: 0.9rem;
+        padding: 0%;
+        margin: auto;
 
     }
 
+    div#dest ul a img{
 
+        width: 530px;
+        height: 200px;
+        margin: auto;
+        
+    }
+
+   
 }
